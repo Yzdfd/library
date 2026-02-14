@@ -1,10 +1,4 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<?php include 'header.html'; ?>
     <style>
       /* Membuat gambar carousel seragam */
       .carousel-inner {
@@ -168,107 +162,7 @@
       .book-list .card:hover img {
         transform: scale(1.03);
       }
-      .site-footer {
-        background: linear-gradient(135deg, #0d6efd 0%, #0b5ed7 100%);
-        color: #fff;
-        padding: 3rem 0 1.5rem;
-        margin-top: 4rem;
-      }
-      .site-footer a {
-        color: rgba(255,255,255,0.9);
-        text-decoration: none;
-        transition: color .18s ease;
-      }
-      .site-footer a:hover {
-        color: #fff;
-        text-decoration: underline;
-      }
-      .footer-section h5 {
-        font-weight: 600;
-        margin-bottom: 1.5rem;
-        color: #fff;
-      }
-      .footer-section ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-      }
-      .footer-section li {
-        margin-bottom: 0.8rem;
-      }
-      .social-links {
-        display: flex;
-        gap: 1rem;
-        margin-top: 1.5rem;
-      }
-      .social-links a {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        background: rgba(255,255,255,0.2);
-        border-radius: 50%;
-        transition: background .18s ease;
-      }
-      .social-links a:hover {
-        background: rgba(255,255,255,0.4);
-      }
-      .footer-bottom {
-        border-top: 1px solid rgba(255,255,255,0.2);
-        margin-top: 2rem;
-        padding-top: 2rem;
-        text-align: center;
-        color: rgba(255,255,255,0.8);
-        font-size: 0.9rem;
-      }
-      
     </style>
-  </head>
-  <body>
-    <!-- Navbar Start -->
-    <nav class="navbar navbar-expand-lg site-navbar" data-bs-theme="dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Library</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-3 ms-auto mb-2 mb-lg-0 gap-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Dashboard</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Books</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Carts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="profile.html">Profile</a>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li> -->
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Navbar end -->
 
     <!-- Welcome Message start-->
     <section class="welcome-section bg-light">
@@ -405,64 +299,5 @@
         </div>
       </div>
       <!-- Card End  -->
-
-      <!-- Footer Start -->
-      <footer class="site-footer">
-        <div class="container">
-          <div class="row g-4 mb-4">
-            <!-- About Section -->
-            <div class="col-md-3 footer-section">
-              <h5>About Our Library</h5>
-              <p>A modern library dedicated to providing access to thousands of books across all genres and interests.</p>
-              <div class="social-links">
-                <a href="#" title="Facebook">f</a>
-                <a href="#" title="Twitter">𝕏</a>
-                <a href="#" title="Instagram">📷</a>
-                <a href="#" title="LinkedIn">in</a>
-              </div>
-            </div>
-            <!-- Quick Links -->
-            <div class="col-md-3 footer-section">
-              <h5>Quick Links</h5>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Browse Books</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">New Arrivals</a></li>
-                <li><a href="#">Events</a></li>
-              </ul>
-            </div>
-            <!-- Support -->
-            <div class="col-md-3 footer-section">
-              <h5>Support</h5>
-              <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">FAQ</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Book Request</a></li>
-              </ul>
-            </div>
-            <!-- Contact Info -->
-            <div class="col-md-3 footer-section">
-              <h5>Contact Info</h5>
-              <ul>
-                <li>📧 <a href="mailto:info@library.com">info@library.com</a></li>
-                <li>📞 +1 (555) 123-4567</li>
-                <li>📍 123 Library Street<br>City, State 12345</li>
-                <li>🕐 Mon-Fri: 9AM-8PM<br>Sat-Sun: 10AM-6PM</li>
-              </ul>
-            </div>
-          </div>
-          <!-- Footer Bottom -->
-          <div class="footer-bottom">
-            <p>&copy; 2026 Our Library. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
-          </div>
-        </div>
-      </footer>
-
-      <!-- Footer End -->
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
-</html>
+<?php include 'footer.html'; ?>
