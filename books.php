@@ -51,10 +51,7 @@
 
           <div class="mt-auto d-grid gap-2">
 
-            <button class="btn btn-primary btn-sm">Borrow Book</button>
-
-            <button class="btn btn-success btn-sm">Add to Cart</button>
-
+            <a href="books_detail.php" class="text-white text-decoration-none btn btn-primary btn-sm">Details</a>
             <button class="btn btn-outline-danger btn-sm">Save</button>
 
           </div>
